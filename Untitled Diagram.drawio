@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T13:25:39.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.8.2" etag="FXsks3-M516aClAnWXxR" type="github"><diagram id="75THb_WbmRV_Y5OloDjd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-17T14:07:52.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="dCfWna12a7pQ6xvTI4YU" version="15.8.2" type="github">
+  <diagram id="75THb_WbmRV_Y5OloDjd" name="Page-1">
+    <mxGraphModel dx="1426" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RNMV4V34XcW_M_wdi3RT-1" target="RNMV4V34XcW_M_wdi3RT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-1" value="/t3del-7gm-image" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-2" value="return resized image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="RNMV4V34XcW_M_wdi3RT-3" target="RNMV4V34XcW_M_wdi3RT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-3" value="validate inputs&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-5" value="Width, Height, Image file name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="460" y="255" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="RNMV4V34XcW_M_wdi3RT-6" target="RNMV4V34XcW_M_wdi3RT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="RNMV4V34XcW_M_wdi3RT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-6" value="&lt;font color=&quot;#030303&quot;&gt;check if the image exists or not&lt;/font&gt;" style="rhombus;fontColor=#FFFFFF;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-9" value="Exist" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-10" value="Not Exist" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-11" value="1. Resize&lt;br&gt;2. Add it to the folder images/thumbnails" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNMV4V34XcW_M_wdi3RT-13" value="ex. imageName_Width_Height.jpg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="485" y="630" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
